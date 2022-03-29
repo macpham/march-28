@@ -46,7 +46,7 @@ export default function Header({collections, storeName}) {
               className="font-black uppercase text-3xl tracking-widest"
               to="/"
             >
-              🎭 Staging! {storeName} - More changes
+              🎭 Staging! {storeName} - Booped!
             </Link>
             <CartToggle
               handleClick={() => {
