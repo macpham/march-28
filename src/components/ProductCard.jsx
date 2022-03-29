@@ -31,7 +31,7 @@ export default function ProductCard({product}) {
           )}
         </div>
 
-        <span className="text-black font-semibold mb-0.5">{product.title} 🎉</span>
+        <span className="text-black font-semibold mb-0.5">✨ {product.title} ✨</span>
 
         {product.vendor && (
           <p className="text-gray-900 font-medium text-sm mb-0.5">
